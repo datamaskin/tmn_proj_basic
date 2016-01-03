@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TMN NFL QB stats project</title>
+    <link rel="stylesheet" type="text/css" href="css/table-container.css">
+    <link rel="stylesheet" type="text/css" href="css/2cols.css">
+    <link rel="stylesheet" type="text/css" href="css/3cols.css">
+    <link rel="stylesheet" type="text/css" href="css/col.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <script src="js/tmn_proj.js"></script>
+
+</head>
+<body>
+<form>
+    <fieldset>
+        <select id="qbid" name="qb" size="1">
+            <option value="">- Select QB -</option>
+            <option value="nfl-1870523.json">Tom Brady</option>
+            <option value="nfl-1949528.json">Tony Romo</option>
+            <option value="nfl-2223207.json">Andy Dalton</option>
+        </select>
+    </fieldset>
+
+    <input type="button" id="save" value="HUT! HUT!" onclick="addStorage(); return false;" />
+
+    <div id="clearid">
+        <article>
+            <p>Session storage cleared.</p>
+        </article>
+    </div>
+
+    <div id="detailsid" class="section group" hidden>
+        <div id="playerall" class="col span_1_of_3">
+            <!--This column spans 1 of 3, but has more grids nested in it.-->
+            <div class="section group">
+                <div class="col span_2_of_2">
+                    <div class="padded">
+                        <!--This inner grid spans 2 of 2-->
+                    </div>
+                </div>
+            </div>
+            <div class="section group">
+                <div class="col span_3_of_3">
+                    <div class="padded">
+                        <!--This inner grid spans 3 of 3-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="result" class="col span_1_of_2 table-container">
+            <!--This column spans 1 of 2-->
+        </div>
+        <!--<div class="col span_2_of_2">
+            <input type="button" value="Close" onclick="clearStorage(); self.close();">
+        </div>-->
+    </div>
+</form>
+<script src="js/xmlhttpreq.js"></script>
+</body>
+</html>
