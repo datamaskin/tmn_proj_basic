@@ -28,7 +28,12 @@ Objective
 
 > With no QB selected from the dropdown click the **HUT! HUT!** button to clear the session storage.
 
-> There were 3 validation errors.
+> There were 2 validation errors.
+
+> The tmn_proj_basic was deployed and tested on
+ 
+>> * Apache web server 2.4.7
+>> * nginx version: nginx/1.4.6 (Ubuntu)
 
 > The remaining links and references are listed below.
 
