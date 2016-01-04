@@ -2,7 +2,7 @@ article
 {
     padding:5px;
     /*border:dotted 3px #ff006e;*/
-    border:double 3px #b200ff;
+    /*border:double 3px #b200ff;*/
     margin-top:5px;
     font-family: arial, sans-serif;
 }
@@ -16,14 +16,14 @@ header
 
 aside
 {
-    margin-top: 25px;
-    margin-right: 65px;
+    margin-top: -14px;
+    margin-right: 35px;
     background-color:#f0eaea;
     padding:5px;
     text-align:center;
     font-style:italic;
     font-family: arial, sans-serif;
-    border:double 3px #b200ff;
+    /*border:double 3px #b200ff;*/
     float: right;
 }
 
@@ -31,7 +31,7 @@ section
 {
     padding:5px;
     /*border:dashed 3px #0026ff;*/
-    border:double 3px #b200ff;
+    /*border:double 3px #b200ff;*/
     margin-top:5px;
     font-family: arial, sans-serif;
 }
