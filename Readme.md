@@ -8,6 +8,8 @@ Objective
 
 > **SENIOR SOFTWARE ENGINEER**
 
+> *trumedianetworks.com passed on my contribution without an interview*.
+
 > The reply from trumedianetworks included an attached .zip file with instructions in PDF and 3 type json data files.
 
 > The task: display the 3 NFL QBs on separate pages with accompanying stats.
